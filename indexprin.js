@@ -20,7 +20,7 @@ new Vue({
         posts=[];
         if(x==3) x=0;
         axios 
-        .get('http://foaas.com/'+urlo[3-x]+'/'+names[x]+'/Everyone?shoutcloud')
+        .get('https://foaas.com/'+urlo[3-x]+'/'+names[x]+'/Everyone?shoutcloud')
         .then(response => (posts.push(JSON.stringify(response.data.message))));
         x++;
       };
