@@ -1,0 +1,40 @@
+html, body {
+    margin: 5px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#circle{
+	border-radius:50%;
+	max-width: 300px;
+	max-height: 300px;
+}
+.grande{
+	font-size: 60px;
+	font-family: Permanent Marker;
+}
+.mediano{
+	font-size: 40px;
+	font-family: Kirang Haerang;
+}
+.peque{
+	font-size: 27px;
+	font-family: Poiret One;
+}
+
+.creditos{
+	text-align: center;
+	font-family: Amatic SC;
+	font-size: 150%;
+	padding-top: 800px;
+	padding-bottom: 50px;
+}
+.centrado{
+	left: 38%;
+	top: 25%;
+  	z-index:200;
+	position: fixed;
+}
+.notepaseswei{
+	max-width: auto; max-height: auto;
+}

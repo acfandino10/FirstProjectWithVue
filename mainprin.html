@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker|Kirang+Haerang|Poiret+One" rel="stylesheet">
+        <link rel="stylesheet" href="styleprin.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <img id="circle" src="imgs/anaca.png" class="centrado">
+        <div id="app" class="notepaseswei">
+            <div v-for="user in users">
+                {{getdata(user)}}
+            </div>
+            <strong class ="grande">
+                {{info}}
+            </strong>
+            <i class ="mediano">
+                {{info}}
+            </i>
+            <i class ="peque">
+                {{info}}
+            </i>
+            <strong class ="grande">
+                {{info}}
+            </strong>
+            <i class ="peque">
+                {{info}}
+            </i>
+            <strong class ="grande">
+                {{info}}
+            </strong>
+            <i class ="mediano">
+                {{info}}
+            </i>
+            <strong class ="grande">
+                {{info}}
+            </strong>
+            <i class ="peque">
+                {{info}}
+            </i>
+            <strong class ="grande">
+                {{info}}
+            </strong>
+            <i class ="mediano">
+                {{info}}
+            </i>
+        </div>
+        
+        <script src="indexprin.js"></script>
+    </body>
+</html>
